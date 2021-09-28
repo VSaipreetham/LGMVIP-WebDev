@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: #f5f7fa;
+  height: calc(100vh - 70px);
+  width: 100vw;
+  margin-top: 70px;
+}
+
+.button{
+  margin-top: 40px;
+  margin-left: 40px;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  color: white;
+  background: skyblue;
+}
+
+.button:hover{
+  border: 3px solid lightblue;
+}

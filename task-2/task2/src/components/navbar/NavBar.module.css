@@ -1,0 +1,60 @@
+.navbar__container{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #212121;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav__right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list_items{
+    list-style: none;
+    cursor: pointer;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+}
+
+.list_items:hover{
+    color: white;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.h1,.h2,.h3{
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+@media(max-width:650px){
+    .nav__right{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
